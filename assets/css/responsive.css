@@ -1,0 +1,85 @@
+@media (max-width:1100px){
+  .site-header__inner{grid-template-columns:auto 1fr auto;gap:1rem}
+  .primary-nav{gap:1.25rem}
+  .header-cta{padding-inline:1rem}
+  .hero__content{padding-top:3.4rem}
+  .value-strip article{padding:1rem}
+  .value-strip svg{width:1.9rem;height:1.9rem}
+  .final-cta__copy{padding-right:5rem}
+}
+@media (max-width:900px){
+  :root{--container-gutter:1.35rem}
+  .announcement__support{display:none!important}
+  .announcement__inner{justify-content:center;text-align:center}
+  .site-header__inner{grid-template-columns:1fr auto auto}
+  .menu-toggle{display:block;order:3}
+  .header-cta{display:none}
+  .primary-nav{position:fixed;inset:calc(2.15rem + 4.55rem) 0 auto 0;z-index:var(--z-menu);display:grid;gap:0;padding:1rem var(--container-gutter) 1.5rem;background:#fffaf7;border-bottom:1px solid var(--color-border);box-shadow:var(--shadow-soft);transform:translateY(-120%);visibility:hidden;transition:transform .25s ease,visibility .25s ease}
+  .primary-nav.is-open{transform:translateY(0);visibility:visible}
+  .primary-nav a{padding:.85rem 0;border-bottom:1px solid #eee3dc}
+  .primary-nav a:last-child{border-bottom:0}
+  .menu-toggle[aria-expanded="true"] span:nth-of-type(1){transform:translateY(6px) rotate(45deg)}
+  .menu-toggle[aria-expanded="true"] span:nth-of-type(2){opacity:0}
+  .menu-toggle[aria-expanded="true"] span:nth-of-type(3){transform:translateY(-6px) rotate(-45deg)}
+  .hero__grid{grid-template-columns:1fr;min-height:auto;padding-bottom:0}
+  .hero__content{padding:3.3rem 0 2.2rem;max-width:38rem}
+  .hero__media{position:relative;inset:auto;margin-inline:calc(var(--container-gutter) * -1);height:26rem}
+  .hero__media::before{inset:0 0 auto 0;width:auto;height:20%;background:linear-gradient(180deg,#fff8f3,transparent)}
+  .hero__benefits{margin-top:2rem}
+  .about__card{grid-template-columns:1fr 1fr}
+  .value-strip__grid{grid-template-columns:repeat(2,1fr)}
+  .product-grid{grid-template-columns:repeat(2,1fr)}
+  .testimonial-grid{grid-template-columns:1fr}
+  .instagram-grid{grid-template-columns:repeat(4,1fr)}
+  .instagram-grid a:nth-child(n+5){display:none}
+  .final-cta__card{grid-template-columns:42% 58%}
+  .final-cta__copy{padding-right:3rem}
+  .site-footer__grid{grid-template-columns:1.2fr repeat(2,1fr)}
+  .site-footer__grid>div:last-child{grid-column:2/4}
+}
+@media (max-width:680px){
+  html{scroll-padding-top:5rem}
+  .announcement{font-size:.73rem}
+  .announcement__inner{min-height:2.35rem}
+  .site-header__inner{min-height:4.2rem}
+  .brand{font-size:1.9rem}
+  .primary-nav{inset:calc(2.35rem + 4.2rem) 0 auto 0}
+  .hero__content{padding-top:2.6rem}
+  .hero h1{max-width:11ch}
+  .hero__actions{display:grid;grid-template-columns:1fr}
+  .hero__actions .button{width:100%}
+  .hero__benefits{grid-template-columns:1fr;gap:.9rem}
+  .hero__benefits br{display:none}
+  .hero__media{height:22rem}
+  .about{padding-top:2.2rem}
+  .about__card{grid-template-columns:1fr}
+  .about__copy{padding:1.6rem}
+  .about__media{min-height:17rem;order:-1}
+  .about__copy .leaf-illustration{width:8rem;opacity:.45}
+  .value-strip__grid{grid-template-columns:1fr}
+  .value-strip article{min-height:auto}
+  .product-grid{grid-template-columns:1fr}
+  .product-card picture{aspect-ratio:1.55/1}
+  .section-heading{gap:.75rem}
+  .testimonial-card{grid-template-columns:2.8rem 1fr;padding:1rem}
+  .testimonial-card__avatar{width:2.8rem;height:2.8rem}
+  .instagram__heading{flex-wrap:wrap;gap:.45rem .7rem}
+  .instagram-grid{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;padding-bottom:.55rem}
+  .instagram-grid a,.instagram-grid a:nth-child(n+5){display:block;flex:0 0 70%;scroll-snap-align:start}
+  .final-cta__card{grid-template-columns:1fr}
+  .final-cta__media{height:14rem}
+  .final-cta__copy{padding:1.6rem 1.5rem 2rem}
+  .final-cta__leaf{width:8rem;opacity:.4}
+  .site-footer__grid{grid-template-columns:1fr 1fr;gap:1.6rem}
+  .site-footer__grid>div:first-child{grid-column:1/-1}
+  .site-footer__grid>div:last-child{grid-column:1/-1}
+  .site-header--simple .button{padding-inline:.85rem;font-size:.82rem}
+}
+@media (max-width:420px){
+  :root{--container-gutter:1rem}
+  .announcement p{font-size:.69rem}
+  .hero__media{height:19rem}
+  .site-footer__grid{grid-template-columns:1fr}
+  .site-footer__grid>div:first-child,.site-footer__grid>div:last-child{grid-column:auto}
+  .floating-whatsapp{width:3rem;height:3rem}
+}

@@ -1,0 +1,593 @@
+{
+  "sourceNotice": "Assets were cropped from the supplied composite layout reference. Replace with original high-resolution photographs before final publication when available.",
+  "items": [
+    {
+      "id": "hero-home",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/hero-home-desktop.webp",
+      "avif": "assets/images/desktop/hero-home-desktop.avif",
+      "width": 920,
+      "height": 850,
+      "aspectRatio": 1.0824,
+      "focalPoint": {
+        "x": 0.56,
+        "y": 0.48
+      }
+    },
+    {
+      "id": "hero-home",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/hero-home-tablet.webp",
+      "avif": "assets/images/tablet/hero-home-tablet.avif",
+      "width": 820,
+      "height": 680,
+      "aspectRatio": 1.2059,
+      "focalPoint": {
+        "x": 0.56,
+        "y": 0.48
+      }
+    },
+    {
+      "id": "hero-home",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/hero-home-mobile.webp",
+      "avif": "assets/images/mobile/hero-home-mobile.avif",
+      "width": 720,
+      "height": 680,
+      "aspectRatio": 1.0588,
+      "focalPoint": {
+        "x": 0.56,
+        "y": 0.48
+      }
+    },
+    {
+      "id": "about-home",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/about-home-desktop.webp",
+      "avif": "assets/images/desktop/about-home-desktop.avif",
+      "width": 900,
+      "height": 520,
+      "aspectRatio": 1.7308,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.48
+      }
+    },
+    {
+      "id": "about-home",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/about-home-tablet.webp",
+      "avif": "assets/images/tablet/about-home-tablet.avif",
+      "width": 800,
+      "height": 520,
+      "aspectRatio": 1.5385,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.48
+      }
+    },
+    {
+      "id": "about-home",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/about-home-mobile.webp",
+      "avif": "assets/images/mobile/about-home-mobile.avif",
+      "width": 720,
+      "height": 520,
+      "aspectRatio": 1.3846,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.48
+      }
+    },
+    {
+      "id": "product-rasteira",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/product-rasteira-desktop.webp",
+      "avif": "assets/images/desktop/product-rasteira-desktop.avif",
+      "width": 700,
+      "height": 430,
+      "aspectRatio": 1.6279,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.52
+      }
+    },
+    {
+      "id": "product-rasteira",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/product-rasteira-tablet.webp",
+      "avif": "assets/images/tablet/product-rasteira-tablet.avif",
+      "width": 560,
+      "height": 360,
+      "aspectRatio": 1.5556,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.52
+      }
+    },
+    {
+      "id": "product-rasteira",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/product-rasteira-mobile.webp",
+      "avif": "assets/images/mobile/product-rasteira-mobile.avif",
+      "width": 640,
+      "height": 420,
+      "aspectRatio": 1.5238,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.52
+      }
+    },
+    {
+      "id": "product-sandalia",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/product-sandalia-desktop.webp",
+      "avif": "assets/images/desktop/product-sandalia-desktop.avif",
+      "width": 700,
+      "height": 430,
+      "aspectRatio": 1.6279,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "product-sandalia",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/product-sandalia-tablet.webp",
+      "avif": "assets/images/tablet/product-sandalia-tablet.avif",
+      "width": 560,
+      "height": 360,
+      "aspectRatio": 1.5556,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "product-sandalia",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/product-sandalia-mobile.webp",
+      "avif": "assets/images/mobile/product-sandalia-mobile.avif",
+      "width": 640,
+      "height": 420,
+      "aspectRatio": 1.5238,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "product-scarpin",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/product-scarpin-desktop.webp",
+      "avif": "assets/images/desktop/product-scarpin-desktop.avif",
+      "width": 700,
+      "height": 430,
+      "aspectRatio": 1.6279,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "product-scarpin",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/product-scarpin-tablet.webp",
+      "avif": "assets/images/tablet/product-scarpin-tablet.avif",
+      "width": 560,
+      "height": 360,
+      "aspectRatio": 1.5556,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "product-scarpin",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/product-scarpin-mobile.webp",
+      "avif": "assets/images/mobile/product-scarpin-mobile.avif",
+      "width": 640,
+      "height": 420,
+      "aspectRatio": 1.5238,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "product-tenis",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/product-tenis-desktop.webp",
+      "avif": "assets/images/desktop/product-tenis-desktop.avif",
+      "width": 700,
+      "height": 430,
+      "aspectRatio": 1.6279,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "product-tenis",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/product-tenis-tablet.webp",
+      "avif": "assets/images/tablet/product-tenis-tablet.avif",
+      "width": 560,
+      "height": 360,
+      "aspectRatio": 1.5556,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "product-tenis",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/product-tenis-mobile.webp",
+      "avif": "assets/images/mobile/product-tenis-mobile.avif",
+      "width": 640,
+      "height": 420,
+      "aspectRatio": 1.5238,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "instagram-01",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-01-desktop.webp",
+      "avif": "assets/images/desktop/instagram-01-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-01",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-01-tablet.webp",
+      "avif": "assets/images/tablet/instagram-01-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-01",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-01-mobile.webp",
+      "avif": "assets/images/mobile/instagram-01-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-02",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-02-desktop.webp",
+      "avif": "assets/images/desktop/instagram-02-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-02",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-02-tablet.webp",
+      "avif": "assets/images/tablet/instagram-02-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-02",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-02-mobile.webp",
+      "avif": "assets/images/mobile/instagram-02-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-03",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-03-desktop.webp",
+      "avif": "assets/images/desktop/instagram-03-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-03",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-03-tablet.webp",
+      "avif": "assets/images/tablet/instagram-03-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-03",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-03-mobile.webp",
+      "avif": "assets/images/mobile/instagram-03-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-04",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-04-desktop.webp",
+      "avif": "assets/images/desktop/instagram-04-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-04",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-04-tablet.webp",
+      "avif": "assets/images/tablet/instagram-04-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-04",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-04-mobile.webp",
+      "avif": "assets/images/mobile/instagram-04-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-05",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-05-desktop.webp",
+      "avif": "assets/images/desktop/instagram-05-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-05",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-05-tablet.webp",
+      "avif": "assets/images/tablet/instagram-05-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-05",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-05-mobile.webp",
+      "avif": "assets/images/mobile/instagram-05-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-06",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-06-desktop.webp",
+      "avif": "assets/images/desktop/instagram-06-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-06",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-06-tablet.webp",
+      "avif": "assets/images/tablet/instagram-06-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-06",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-06-mobile.webp",
+      "avif": "assets/images/mobile/instagram-06-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-07",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/instagram-07-desktop.webp",
+      "avif": "assets/images/desktop/instagram-07-desktop.avif",
+      "width": 480,
+      "height": 380,
+      "aspectRatio": 1.2632,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-07",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/instagram-07-tablet.webp",
+      "avif": "assets/images/tablet/instagram-07-tablet.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "instagram-07",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/instagram-07-mobile.webp",
+      "avif": "assets/images/mobile/instagram-07-mobile.avif",
+      "width": 420,
+      "height": 340,
+      "aspectRatio": 1.2353,
+      "focalPoint": {
+        "x": 0.5,
+        "y": 0.5
+      }
+    },
+    {
+      "id": "cta-home",
+      "variant": "desktop",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/desktop/cta-home-desktop.webp",
+      "avif": "assets/images/desktop/cta-home-desktop.avif",
+      "width": 900,
+      "height": 310,
+      "aspectRatio": 2.9032,
+      "focalPoint": {
+        "x": 0.45,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "cta-home",
+      "variant": "tablet",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/tablet/cta-home-tablet.webp",
+      "avif": "assets/images/tablet/cta-home-tablet.avif",
+      "width": 800,
+      "height": 360,
+      "aspectRatio": 2.2222,
+      "focalPoint": {
+        "x": 0.45,
+        "y": 0.55
+      }
+    },
+    {
+      "id": "cta-home",
+      "variant": "mobile",
+      "source": "assets/images/originals/layout-reference.png",
+      "webp": "assets/images/mobile/cta-home-mobile.webp",
+      "avif": "assets/images/mobile/cta-home-mobile.avif",
+      "width": 720,
+      "height": 500,
+      "aspectRatio": 1.44,
+      "focalPoint": {
+        "x": 0.45,
+        "y": 0.55
+      }
+    }
+  ]
+}

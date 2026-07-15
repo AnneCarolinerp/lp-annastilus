@@ -1,0 +1,20 @@
+{
+  "source": "assets/images/originals/layout-reference.png",
+  "notice": "Quando receber as fotos originais em alta resolução, substitua a origem e ajuste os recortes sem alterar os nomes de saída.",
+  "images": [
+    {"id":"hero-home","crop":{"left":500,"top":100,"width":441,"height":408},"focal":{"x":0.56,"y":0.48},"sizes":{"desktop":[920,850],"tablet":[820,680],"mobile":[720,680]}},
+    {"id":"about-home","crop":{"left":439,"top":506,"width":428,"height":250},"focal":{"x":0.50,"y":0.48},"sizes":{"desktop":[900,520],"tablet":[800,520],"mobile":[720,520]}},
+    {"id":"product-rasteira","crop":{"left":63,"top":906,"width":181,"height":112},"focal":{"x":0.50,"y":0.52},"sizes":{"desktop":[700,430],"tablet":[560,360],"mobile":[640,420]}},
+    {"id":"product-sandalia","crop":{"left":266,"top":906,"width":185,"height":112},"focal":{"x":0.50,"y":0.55},"sizes":{"desktop":[700,430],"tablet":[560,360],"mobile":[640,420]}},
+    {"id":"product-scarpin","crop":{"left":470,"top":906,"width":184,"height":112},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[700,430],"tablet":[560,360],"mobile":[640,420]}},
+    {"id":"product-tenis","crop":{"left":676,"top":906,"width":184,"height":112},"focal":{"x":0.50,"y":0.55},"sizes":{"desktop":[700,430],"tablet":[560,360],"mobile":[640,420]}},
+    {"id":"instagram-01","crop":{"left":68,"top":1305,"width":103,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"instagram-02","crop":{"left":178,"top":1305,"width":109,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"instagram-03","crop":{"left":294,"top":1305,"width":111,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"instagram-04","crop":{"left":412,"top":1305,"width":108,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"instagram-05","crop":{"left":527,"top":1305,"width":109,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"instagram-06","crop":{"left":642,"top":1305,"width":110,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"instagram-07","crop":{"left":759,"top":1305,"width":104,"height":70},"focal":{"x":0.50,"y":0.50},"sizes":{"desktop":[480,380],"tablet":[420,340],"mobile":[420,340]}},
+    {"id":"cta-home","crop":{"left":63,"top":1398,"width":386,"height":126},"focal":{"x":0.45,"y":0.55},"sizes":{"desktop":[900,310],"tablet":[800,360],"mobile":[720,500]}}
+  ]
+}

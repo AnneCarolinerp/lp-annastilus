@@ -1,0 +1,17 @@
+{
+  "name": "AnnaStilus",
+  "short_name": "AnnaStilus",
+  "description": "Bolsas e calçados com atendimento personalizado.",
+  "start_url": "./",
+  "display": "standalone",
+  "background_color": "#fffaf7",
+  "theme_color": "#f7efe9",
+  "icons": [
+    {
+      "src": "favicon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}

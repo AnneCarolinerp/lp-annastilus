@@ -1,0 +1,10 @@
+*,*::before,*::after{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body,h1,h2,h3,p,figure,blockquote,dl,dd{margin:0}
+ul[role="list"],ol[role="list"],ul{list-style:none;margin:0;padding:0}
+body{min-height:100vh;text-rendering:optimizeLegibility;-webkit-font-smoothing:antialiased}
+img,picture{display:block;max-width:100%}
+button,input,textarea,select{font:inherit}
+button,a{-webkit-tap-highlight-color:transparent}
+a{text-decoration:none;color:inherit}
+svg{display:block}

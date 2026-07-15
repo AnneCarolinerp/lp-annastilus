@@ -1,0 +1,13 @@
+{
+  "name": "annastilus-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Site institucional e comercial estático da AnnaStilus.",
+  "scripts": {
+    "images": "node scripts/process-images.js",
+    "serve": "npx serve . -l 4173"
+  },
+  "devDependencies": {
+    "sharp": "^0.34.3"
+  }
+}
