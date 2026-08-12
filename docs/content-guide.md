@@ -19,9 +19,9 @@ Atualize também o domínio em:
 
 ## Dados comerciais a validar
 
-- Frete grátis acima de R$ 199.
-- Parcelamento em até 6 vezes sem juros.
-- Frete para todo o Brasil.
+- Frete grátis somente na primeira compra acima de R$ 199.
+- Parcelamento em até 3x sem juros.
+- Frete grátis na primeira compra acima de R$ 199; demais condições de frete não devem ser apresentadas como gratuidade geral.
 - Política de troca fácil.
 - Preços e disponibilidade dos quatro produtos.
 - Meios de pagamento.

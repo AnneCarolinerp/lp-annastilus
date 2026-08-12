@@ -87,3 +87,13 @@
   .floating-whatsapp{width:3.4rem;height:3.4rem}
   .floating-whatsapp .icon--whatsapp{width:1.9rem;height:1.9rem}
 }
+
+/* Condição comercial compacta na barra superior em telas menores. */
+.announcement__mobile{display:none}
+@media (max-width:680px){
+  .announcement__desktop{display:none}
+  .announcement__mobile{display:inline}
+  .announcement p{line-height:1.25}
+  .hero__benefit-text strong{max-width:13rem}
+  .final-cta__media img{object-position:center 42%}
+}

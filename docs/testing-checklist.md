@@ -67,7 +67,7 @@
 
 ## Conteúdo e negócio
 
-- [ ] Confirmar frete grátis e valor mínimo.
+- [ ] Confirmar frete grátis somente na primeira compra acima de R$ 199 e parcelamento em até 3x sem juros.
 - [ ] Confirmar parcelamento.
 - [ ] Confirmar política de troca.
 - [ ] Confirmar preços e disponibilidade.
