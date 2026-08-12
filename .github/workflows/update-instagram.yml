@@ -2,9 +2,9 @@ name: Atualizar feed do Instagram
 
 on:
   schedule:
-    # Feed: a cada hora, no minuto 17 (horário do cron do GitHub é UTC).
+    # Feed: a cada hora, no minuto 17. O cron do GitHub Actions usa UTC.
     - cron: '17 * * * *'
-    # Token: duas vezes por mês, bem antes dos 60 dias de validade.
+    # Token: dias 1 e 15 de cada mês, antes do vencimento do token longo.
     - cron: '23 3 1,15 * *'
   workflow_dispatch:
     inputs:
@@ -45,7 +45,8 @@ jobs:
         uses: actions/checkout@v4
         with:
           fetch-depth: 0
-          # O PAT garante que o push do JSON dispare a publicação do GitHub Pages.
+          # O PAT é usado porque pushes feitos só com GITHUB_TOKEN não disparam
+          # o build do GitHub Pages quando a publicação é feita por branch.
           token: ${{ secrets.ANNASTILUS_AUTOMATION_TOKEN }}
 
       - name: Configurar Node.js
@@ -57,6 +58,7 @@ jobs:
         env:
           INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           INSTAGRAM_API_VERSION: v26.0
+          INSTAGRAM_EXPECTED_USERNAME: annastilus
         run: node scripts/update-instagram-feed.mjs
 
       - name: Publicar JSON atualizado
@@ -80,13 +82,18 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Verificar credencial de rotação
+      - name: Verificar credenciais de renovação
         shell: bash
         env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
           AUTOMATION_TOKEN: ${{ secrets.ANNASTILUS_AUTOMATION_TOKEN }}
         run: |
+          if [ -z "$INSTAGRAM_TOKEN" ]; then
+            echo "::error::Crie o secret INSTAGRAM_ACCESS_TOKEN antes de testar a renovação."
+            exit 1
+          fi
           if [ -z "$AUTOMATION_TOKEN" ]; then
-            echo "::error::Crie o secret ANNASTILUS_AUTOMATION_TOKEN com um fine-grained PAT restrito a este repositório e permissão Secrets: read/write."
+            echo "::error::Crie o secret ANNASTILUS_AUTOMATION_TOKEN com Secrets: write neste repositório."
             exit 1
           fi
 

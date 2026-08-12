@@ -76,7 +76,6 @@
   .site-footer__grid{grid-template-columns:1fr 1fr;gap:2rem 1.6rem}
   .site-footer__grid>div:first-child{grid-column:1/-1}
   .site-footer__bottom{flex-direction:column;gap:.15rem}
-  .footer-developer::before{display:none}
   .site-header--simple .button{padding-inline:.85rem;font-size:.82rem}
 }
 @media (max-width:420px){

@@ -3,6 +3,7 @@ import path from 'node:path';
 
 const ACCESS_TOKEN = process.env.INSTAGRAM_ACCESS_TOKEN?.trim();
 const API_VERSION = process.env.INSTAGRAM_API_VERSION?.trim() || 'v26.0';
+const EXPECTED_USERNAME = (process.env.INSTAGRAM_EXPECTED_USERNAME?.trim() || 'annastilus').toLowerCase();
 const API_BASE = `https://graph.instagram.com/${API_VERSION}`;
 const OUTPUT_PATH = path.resolve(process.cwd(), 'data/instagram-feed.json');
 const MAX_POSTS = 7;
@@ -59,11 +60,18 @@ const compactCaption = (caption = '') => {
 };
 
 const main = async () => {
-  // A chamada a /me também funciona como validação prática do token antes de tocar no JSON atual.
+  // Valida o token e a conta antes de tocar no último JSON válido.
   const account = await requestJson(
     instagramUrl('/me', { fields: 'user_id,username' }),
     'Não foi possível validar a conta do Instagram'
   );
+
+  const username = String(account.username || '').toLowerCase();
+  if (username !== EXPECTED_USERNAME) {
+    throw new Error(
+      `O token pertence a @${account.username || 'desconhecido'}, mas o feed esperado é @${EXPECTED_USERNAME}.`
+    );
+  }
 
   const instagramUserId = account.user_id;
   if (!instagramUserId) {
@@ -86,13 +94,9 @@ const main = async () => {
   const normalizedPosts = [];
 
   for (const item of sourcePosts) {
-    let imageUrl = '';
-
-    if (item.media_type === 'VIDEO') {
-      imageUrl = item.thumbnail_url || '';
-    } else {
-      imageUrl = item.media_url || '';
-    }
+    let imageUrl = item.media_type === 'VIDEO'
+      ? item.thumbnail_url || ''
+      : item.media_url || '';
 
     if (!imageUrl && item.media_type === 'CAROUSEL_ALBUM') {
       imageUrl = await getCarouselCover(item.id);
@@ -124,17 +128,17 @@ const main = async () => {
   const output = {
     schemaVersion: 1,
     generatedAt: new Date().toISOString(),
-    username: account.username || 'annastilus',
+    username: EXPECTED_USERNAME,
     posts
   };
 
-  // Escrita atômica: o arquivo anterior só é substituído depois de termos um feed válido completo.
+  // Escrita atômica: o arquivo anterior só é substituído após uma resposta válida completa.
   await fs.mkdir(path.dirname(OUTPUT_PATH), { recursive: true });
   const temporaryPath = `${OUTPUT_PATH}.tmp`;
   await fs.writeFile(temporaryPath, `${JSON.stringify(output, null, 2)}\n`, 'utf8');
   await fs.rename(temporaryPath, OUTPUT_PATH);
 
-  console.log(`Feed atualizado com ${posts.length} publicação(ões).`);
+  console.log(`Feed de @${EXPECTED_USERNAME} atualizado com ${posts.length} publicação(ões).`);
 };
 
 main().catch((error) => {
