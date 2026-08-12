@@ -71,13 +71,15 @@
       <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-navigation"
         data-menu-toggle>
         <span class="sr-only">Abrir menu</span>
-        <span aria-hidden="true"></span><span aria-hidden="true"></span><span aria-hidden="true"></span>
+        <span class="menu-toggle__bar menu-toggle__bar--top" aria-hidden="true"></span>
+        <span class="menu-toggle__bar menu-toggle__bar--middle" aria-hidden="true"></span>
+        <span class="menu-toggle__bar menu-toggle__bar--bottom" aria-hidden="true"></span>
       </button>
       <nav class="primary-nav" id="primary-navigation" aria-label="Navegação principal" data-menu>
-        <a href="#colecao">Coleção</a>
-        <a href="#categorias">Categorias</a>
-        <a href="#novidades">Novidades</a>
         <a href="#sobre">Sobre</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#atendimento">Atendimento</a>
       </nav>
       <a class="button button--solid header-cta" href="#" data-whatsapp-link
         data-whatsapp-message="Olá! Vim pelo site da AnnaStilus e gostaria de conhecer os modelos disponíveis.">
@@ -100,27 +102,27 @@
               <svg class="icon icon--whatsapp" aria-hidden="true" focusable="false"><use href="#icon-whatsapp"></use></svg>
               Falar no WhatsApp
             </a>
-            <a class="button button--outline" href="#colecao">Ver coleção</a>
+            <a class="button button--outline" href="#modelos">Ver coleção</a>
           </div>
           <ul class="hero__benefits" aria-label="Benefícios de compra">
             <li>
               <svg aria-hidden="true" viewBox="0 0 24 24">
                 <path d="M5 8h14v11H5zM8 8V6a4 4 0 0 1 8 0v2M9 13h6M9 16h4" />
               </svg>
-              <span>Parcele em até<br><strong>6x sem juros</strong></span>
+              <span class="hero__benefit-text"><span>Parcele em até</span><strong>6x sem juros</strong></span>
             </li>
             <li>
               <svg aria-hidden="true" viewBox="0 0 24 24">
                 <path
                   d="M3 6h11v9H3zM14 9h4l3 3v3h-7zM6 18a2 2 0 1 0 0-4 2 2 0 0 0 0 4Zm11 0a2 2 0 1 0 0-4 2 2 0 0 0 0 4Z" />
               </svg>
-              <span>Frete rápido<br><strong>para todo o Brasil</strong></span>
+              <span class="hero__benefit-text"><span>Frete rápido</span><strong>para todo o Brasil</strong></span>
             </li>
             <li>
               <svg aria-hidden="true" viewBox="0 0 24 24">
                 <path d="M5 7h11l-2-2M19 17H8l2 2M19 7a7 7 0 0 1-1.6 9M5 17a7 7 0 0 1 1.6-9" />
               </svg>
-              <span>Troca fácil<br><strong>e sem burocracia</strong></span>
+              <span class="hero__benefit-text"><span>Troca fácil</span><strong>e sem burocracia</strong></span>
             </li>
           </ul>
         </div>
@@ -168,7 +170,7 @@
       </div>
     </section>
 
-    <section class="value-strip" id="categorias" aria-label="Diferenciais da AnnaStilus">
+    <section class="value-strip" aria-label="Diferenciais da AnnaStilus">
       <div class="container value-strip__grid">
         <article>
           <svg aria-hidden="true" viewBox="0 0 24 24">
@@ -210,7 +212,7 @@
       </div>
     </section>
 
-    <section class="products section" id="colecao" aria-labelledby="products-title">
+    <section class="products section" id="modelos" aria-labelledby="products-title">
       <div class="container">
         <div class="section-heading" data-reveal>
           <span aria-hidden="true"></span>
@@ -308,7 +310,7 @@
       </div>
     </section>
 
-    <section class="testimonials section" aria-labelledby="testimonials-title">
+    <section class="testimonials section" id="avaliacoes" aria-labelledby="testimonials-title">
       <div class="container">
         <div class="section-heading section-heading--compact">
           <span aria-hidden="true"></span>
@@ -352,56 +354,60 @@
       </div>
     </section>
 
-    <section class="instagram section" id="novidades" aria-labelledby="instagram-title">
+    <section class="instagram section" id="instagram" aria-labelledby="instagram-title">
       <div class="container">
-        <div class="instagram__heading">
-          <h2 id="instagram-title">Inspirações no Instagram</h2>
-          <a href="#" data-placeholder-link="Instagram">@annastilus</a>
+        <div class="section-heading section-heading--compact instagram__heading">
+          <span aria-hidden="true"></span>
+          <div class="instagram__title-group">
+            <h2 id="instagram-title">Inspirações no Instagram</h2>
+            <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer">@annastilus</a>
+          </div>
+          <span aria-hidden="true"></span>
         </div>
-        <div class="instagram-grid" aria-label="Galeria de inspiração">
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 1 no Instagram">
+        <div class="instagram-grid" aria-label="Galeria de inspiração" data-instagram-feed>
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 1 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-01-desktop.avif"><img
                 src="assets/images/desktop/instagram-01-desktop.webp" alt="Produção elegante em tons neutros"
                 width="480" height="380" loading="lazy">
             </picture>
           </a>
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 2 no Instagram">
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 2 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-02-desktop.avif"><img
                 src="assets/images/desktop/instagram-02-desktop.webp" alt="Sandália de tiras em composição neutra"
                 width="480" height="380" loading="lazy">
             </picture>
           </a>
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 3 no Instagram">
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 3 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-03-desktop.avif"><img
                 src="assets/images/desktop/instagram-03-desktop.webp" alt="Detalhe de calçado em look casual"
                 width="480" height="380" loading="lazy">
             </picture>
           </a>
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 4 no Instagram">
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 4 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-04-desktop.avif"><img
                 src="assets/images/desktop/instagram-04-desktop.webp" alt="Look casual com bolsa" width="480"
                 height="380" loading="lazy">
             </picture>
           </a>
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 5 no Instagram">
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 5 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-05-desktop.avif"><img
                 src="assets/images/desktop/instagram-05-desktop.webp" alt="Rasteira bege em destaque" width="480"
                 height="380" loading="lazy">
             </picture>
           </a>
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 6 no Instagram">
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 6 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-06-desktop.avif"><img
                 src="assets/images/desktop/instagram-06-desktop.webp" alt="Tênis branco minimalista" width="480"
                 height="380" loading="lazy">
             </picture>
           </a>
-          <a href="#" data-placeholder-link="Instagram" aria-label="Abrir publicação 7 no Instagram">
+          <a href="https://www.instagram.com/annastilus/" target="_blank" rel="noopener noreferrer" aria-label="Abrir publicação 7 no Instagram">
             <picture>
               <source type="image/avif" srcset="assets/images/desktop/instagram-07-desktop.avif"><img
                 src="assets/images/desktop/instagram-07-desktop.webp" alt="Inspiração de look com bolsa" width="480"
@@ -412,7 +418,7 @@
       </div>
     </section>
 
-    <section class="final-cta section" aria-labelledby="cta-title">
+    <section class="final-cta section" id="atendimento" aria-labelledby="cta-title">
       <div class="container final-cta__card" data-reveal>
         <picture class="final-cta__media">
           <source type="image/avif" media="(max-width: 767px)" srcset="assets/images/mobile/cta-home-mobile.avif">
@@ -451,20 +457,23 @@
       </div>
       <div>
         <h2>Navegação</h2>
-        <a href="#colecao">Coleção</a>
-        <a href="#categorias">Categorias</a>
-        <a href="#novidades">Novidades</a>
         <a href="#sobre">Sobre</a>
+        <a href="#modelos">Modelos</a>
+        <a href="#avaliacoes">Avaliações</a>
+        <a href="#atendimento">Atendimento</a>
       </div>
       <div>
         <h2>Formas de pagamento</h2>
         <div class="payment-badges" aria-label="Formas de pagamento a validar">
-          <span>VISA</span><span>Master</span><span>Elo</span><span>Pix</span>
+          <span>VISA</span><span>Master</span><span>Elo</span><span>Pix</span><span>Dinheiro</span>
         </div>
       </div>
     </div>
     <div class="container site-footer__bottom">
       <p>© <span data-current-year>2026</span> AnnaStilus. Todos os direitos reservados.</p>
+      <p class="footer-developer">Desenvolvido por
+        <span data-developer-name><a href="https://www.linkedin.com/in/carolinetech/" target="_blank">Carol Rodrigues</a></span>
+      </p>
     </div>
   </footer>
 
@@ -480,6 +489,7 @@
   <script src="assets/js/menu.js" defer></script>
   <script src="assets/js/animations.js" defer></script>
   <script src="assets/js/main.js" defer></script>
+  <script src="assets/js/instagram-feed.js" defer></script>
   <script src="assets/js/google-reviews.js"></script>
 
   <script async

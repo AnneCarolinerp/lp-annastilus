@@ -1,0 +1,115 @@
+name: Atualizar feed do Instagram
+
+on:
+  schedule:
+    # Feed: a cada hora, no minuto 17 (horário do cron do GitHub é UTC).
+    - cron: '17 * * * *'
+    # Token: duas vezes por mês, bem antes dos 60 dias de validade.
+    - cron: '23 3 1,15 * *'
+  workflow_dispatch:
+    inputs:
+      refresh_token:
+        description: 'Também renovar o token do Instagram nesta execução?'
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+concurrency:
+  group: instagram-feed
+  cancel-in-progress: false
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verificar credenciais obrigatórias
+        shell: bash
+        env:
+          INSTAGRAM_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          AUTOMATION_TOKEN: ${{ secrets.ANNASTILUS_AUTOMATION_TOKEN }}
+        run: |
+          if [ -z "$INSTAGRAM_TOKEN" ]; then
+            echo "::error::Crie o secret INSTAGRAM_ACCESS_TOKEN com o token de longa duração da conta @annastilus."
+            exit 1
+          fi
+          if [ -z "$AUTOMATION_TOKEN" ]; then
+            echo "::error::Crie o secret ANNASTILUS_AUTOMATION_TOKEN com um fine-grained PAT restrito a este repositório."
+            exit 1
+          fi
+
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          # O PAT garante que o push do JSON dispare a publicação do GitHub Pages.
+          token: ${{ secrets.ANNASTILUS_AUTOMATION_TOKEN }}
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Buscar os 7 posts mais recentes
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_API_VERSION: v26.0
+        run: node scripts/update-instagram-feed.mjs
+
+      - name: Publicar JSON atualizado
+        shell: bash
+        run: |
+          if git diff --quiet -- data/instagram-feed.json; then
+            echo "Nenhuma alteração no feed."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/instagram-feed.json
+          git commit -m "Atualiza feed automático do Instagram"
+          git push
+
+  refresh-token:
+    if: >-
+      github.event.schedule == '23 3 1,15 * *' ||
+      (github.event_name == 'workflow_dispatch' && inputs.refresh_token == true)
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Verificar credencial de rotação
+        shell: bash
+        env:
+          AUTOMATION_TOKEN: ${{ secrets.ANNASTILUS_AUTOMATION_TOKEN }}
+        run: |
+          if [ -z "$AUTOMATION_TOKEN" ]; then
+            echo "::error::Crie o secret ANNASTILUS_AUTOMATION_TOKEN com um fine-grained PAT restrito a este repositório e permissão Secrets: read/write."
+            exit 1
+          fi
+
+      - name: Baixar o projeto
+        uses: actions/checkout@v4
+
+      - name: Configurar Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Renovar token de longa duração
+        env:
+          INSTAGRAM_ACCESS_TOKEN: ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_REFRESHED_TOKEN_FILE: ${{ runner.temp }}/instagram-access-token.txt
+        run: node scripts/refresh-instagram-token.mjs
+
+      - name: Salvar token renovado no GitHub Secrets
+        shell: bash
+        env:
+          GH_TOKEN: ${{ secrets.ANNASTILUS_AUTOMATION_TOKEN }}
+          TOKEN_FILE: ${{ runner.temp }}/instagram-access-token.txt
+        run: |
+          gh secret set INSTAGRAM_ACCESS_TOKEN --repo "$GITHUB_REPOSITORY" < "$TOKEN_FILE"
+          rm -f "$TOKEN_FILE"
+          echo "Secret INSTAGRAM_ACCESS_TOKEN atualizado sem expor o valor no repositório."

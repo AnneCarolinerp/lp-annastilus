@@ -5,7 +5,9 @@
   "description": "Site institucional e comercial estático da AnnaStilus.",
   "scripts": {
     "images": "node scripts/process-images.js",
-    "serve": "npx serve . -l 4173"
+    "serve": "npx serve . -l 4173",
+    "instagram:update": "node scripts/update-instagram-feed.mjs",
+    "instagram:refresh-token": "node scripts/refresh-instagram-token.mjs"
   },
   "devDependencies": {
     "sharp": "^0.34.3"
