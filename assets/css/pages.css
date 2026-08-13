@@ -135,7 +135,7 @@
   .product-card__body{padding:.65rem .65rem .8rem}
   .product-card h3{font-size:.92rem}
   .product-card__price{margin:.15rem 0 .5rem;font-size:.86rem}
-  .button--product{min-height:2.15rem;padding:.45rem .55rem;font-size:.72rem;white-space:nowrap}
+  .button--product{min-height:2.15rem;padding:.45rem .55rem;white-space:nowrap}
   .button--product .icon--whatsapp{width:.95rem;height:.95rem}
   .final-cta__card{min-height:19rem}
 }
