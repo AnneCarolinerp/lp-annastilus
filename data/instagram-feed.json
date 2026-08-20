@@ -1,12 +1,20 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-20T10:48:41.481Z",
+  "generatedAt": "2026-08-20T11:44:21.790Z",
   "username": "annastilus",
   "posts": [
     {
+      "id": "18140693275570866",
+      "mediaType": "VIDEO",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.71878-15/778401109_2090757088186814_1616312488937433663_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=SBs9__6UVbkQ7kNvwGKI7e-&_nc_oc=Adq5dZqE4NnD-hVQ-Hg2G8MPtRTqWiZaVTi3dPUiVeC6nmCFCkflicL1WljiDJtB-g8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQKZ44BZ_1gCgjACpQq9f0Ero1Y0oEYAlBCVh0f_i8YZ2nfV_dpfqS5JwE2TCye8Jp6FEIzjViFTOw&oh=00_AQGpE7gl84POuAlGwV9xnUV2TXiDJztWIezP64EqETHZfA&oe=6A8CA069",
+      "permalink": "https://www.instagram.com/reel/DcQl_ybR8vU/",
+      "caption": "",
+      "timestamp": "2026-08-20T10:53:54+0000"
+    },
+    {
       "id": "18097014488270316",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/773492121_17974976484092770_3415823753024345232_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=cQG3kpY01fwQ7kNvwHpChaK&_nc_oc=AdpgwjOwFdgmFXWduRtgyNH0AYSWU8qfG41UuhDu0--1gC64I8YwLqVIMeBOXZFzFIA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQJ43j7-ZlZLUGCyuPf86rPVmuUnu6rr7hR5zaMlT7BPIZXGq3t9nkYKvvLTlCUQmNU35jJOZ6H_fw&oh=00_AQHKpZhh-aQoD5qkybMF7jdI4Xjjm95n-rKmDlbNyjLK3g&oe=6A8CC041",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/773492121_17974976484092770_3415823753024345232_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=QBlUDEe4oSEQ7kNvwH2WoLe&_nc_oc=AdopmUi5jJqLLF6ALRqrvoAeVPRmdMKiRUr5gExahA_f5SLPN_eIx6VOp7nT1YRE-t8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQJBOM54ybRuDypxYjVoGoNw_kfVeCgH0-KhFMQIFDY2F6m9jKsllYxkQ74XMT2cAUX5ij027AH76w&oh=00_AQG95tutGiWagcSq0grwJFpS2Rv_E6QVrfx6ogrwzsxSKQ&oe=6A8CC041",
       "permalink": "https://www.instagram.com/p/Db5x_AokbEW/",
       "caption": "",
       "timestamp": "2026-08-11T14:15:49+0000"
@@ -14,7 +22,7 @@
     {
       "id": "17978015097072983",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/771856576_17974863519092770_57620441485578784_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4giQh55Bl0IQ7kNvwH5DT9d&_nc_oc=Adpvv2uL3AapWG5N81EDYJRI7oX2rTBAwDX3p2jnIkvxgOO_Jacp4OpByroukqW6kC0&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQKulPsVxRG7h9SHYeLe1y81y-Lw_f7YUvM7aIcHT1HeeV2V4hL5NAvyCfqBTkSqcinolYojUUlMjA&oh=00_AQEhXXJdHeLlPTLYNNL6T1rROREhcqqh4SlaeCEYHG8JoQ&oe=6A8CAB74",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/771856576_17974863519092770_57620441485578784_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=4giQh55Bl0IQ7kNvwHRQM3H&_nc_oc=AdrPfkzL3qWp0e8tiTEB_1U3POvohOW10nTVxiARr-twD64Kw8n_EOX-GZez5hRp0H8&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQKkiEpzhpOJ2urizrdge5LvF7dwdh6QwaEcAN9kl9bzKe4-Mszs_BKkjaH4-xBAgUXXxjkSxsyjYA&oh=00_AQEiP7K7nuWE8B_nrLMdFBt-nGL5WJcA59NZMhi9rxLPKQ&oe=6A8CAB74",
       "permalink": "https://www.instagram.com/p/Db3sSa9iQl7/",
       "caption": "*Salto \"D\"* 8 cm Fôrma Certa Tam 34 ao 39 139,00 💰 149,00 💳 3x sem acréscimo",
       "timestamp": "2026-08-10T18:47:33+0000"
@@ -22,7 +30,7 @@
     {
       "id": "18110065346515756",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/765036375_17974412190092770_8730500217752619544_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dPTVu5H6CDUQ7kNvwFTmItj&_nc_oc=AdpeJI-b5lk9CHyMVBc-0b2nsKqG2zhLcEG9ZNwoBMjkzi8OL_ghriJ4ziGCqoBvzVA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQLm3X-12B8onpAgVeDv1b7JfcCzU0sPrrQ_ESLqBGx8x-1RdNz-B2rEhGhUskl8dkF0QmDrOxT9hQ&oh=00_AQFC3npFwkyq3rLLqAfi7bZbRNa69UNpzqxtpCAZOG5SCQ&oe=6A8CA693",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/765036375_17974412190092770_8730500217752619544_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=dPTVu5H6CDUQ7kNvwEQ7bS7&_nc_oc=Adq10WToBniH_gH63VKMwDzNrxiAbE3QquCBNn_71tkc1V5W7ZvYXNU7LBE9NS3hBdA&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQKW53JmdfUEn90rlmxfogLvvwjhh8VAd-zLliZtbEEuAhcM5cFsPGt_LSCvO9qx7Iuh83DMo4848A&oh=00_AQGJpPdiFQNwstkPsXaFAaUTS4rycnogjXPWFhgoxF-Nbw&oe=6A8CA693",
       "permalink": "https://www.instagram.com/p/DbwQdxkCYZw/",
       "caption": "O Dia dos Pais está chegando! Selecionamos algumas opções para inspirar você na escolha do presente perfeito.",
       "timestamp": "2026-08-07T21:29:45+0000"
@@ -30,7 +38,7 @@
     {
       "id": "18121173166869533",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/767764289_17974386048092770_4476331586955580685_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RBI-Gyoc8WsQ7kNvwF9oo-c&_nc_oc=Adp_K0-4IFolEWHFaAE4ExCx4wretrL5YaqOCqwryA-pCiD4AppGD_zpXD6qaiDtf-M&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQLEZfTuYxwaV_bLcBE-hEwW29lE_WBVz7XoYaRgxIp1DI9LEnhP0-SPqLoC6bhju6GFDsNE6WZmGQ&oh=00_AQFg4mVPuRQiBJzSsdHQNbyKXD9eugE6_DS-2bi1naM_QA&oe=6A8CA78B",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/767764289_17974386048092770_4476331586955580685_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=RBI-Gyoc8WsQ7kNvwEvE-Mv&_nc_oc=AdrcxUJlUrCNQ5K9W0SNou3cBUFwjBPm_FHEZ8zggDbZQAbsZFKOJl3BKDXb6koPIUE&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQK9lLTS1anCqSDffBRQS8Qz99BAhUQfofX97bnC6ALTJjZnmVIE78N83ociTyazss3pMYRCPcYa2A&oh=00_AQE0-ZMSYCSrL8pBNMU8sxnMjbZ4anWKmGsMJjwlTUYT6w&oe=6A8CA78B",
       "permalink": "https://www.instagram.com/p/Dbv1vjAiaEP/",
       "caption": "*LANÇAMENTO BR SPORT* 📸✨ Prático. Moderno. Confortável. Sem cadarço para facilitar ainda mais a rotina. Um modelo clean, fácil de calçar e perfeito para quem prioriza conforto e praticidade. • Sistema de calce fácil •…",
       "timestamp": "2026-08-07T17:36:15+0000"
@@ -38,7 +46,7 @@
     {
       "id": "18119882002879994",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/766357345_17974083375092770_6122553924462463305_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ugQcccAjDW8Q7kNvwEcgev6&_nc_oc=AdpcdUeR5bQncljr5JYJkSbXHXFgylQr6Gl7q8GK85XKdNpQajUmLwB42MJNmJDI7_4&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQJv1ESqWsHHxEekvU3cQ3ovtYIzzqsKg-trWtToZh8oN28jL9p5HUIREZnnSd_BlA6ApRFxYNZ3vw&oh=00_AQE9Q8UNap7IEr2Qa0pcKrs1RNsFlLjgiTDthJUjDj-8mQ&oe=6A8CA18B",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/766357345_17974083375092770_6122553924462463305_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=100&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=ugQcccAjDW8Q7kNvwFyT0pE&_nc_oc=AdrKQahzL9oYMd2jViXvhDga5O3SO2yONjssq81iFKSXCu-7LDAfgPQX7zXPjoLW8aU&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQLMF5er8xaG97SMui95AhwbUxq0MDxdEJlFUid85iwgJQmT6yeGpiGCnuuJm4LHqYKVhTfmBQe9cg&oh=00_AQEbao_pvH0yoECG4GU1jn5_SAsRAwOGp6I2IDOuhnAFHg&oe=6A8CA18B",
       "permalink": "https://www.instagram.com/p/Dbqn6XDkZg-/",
       "caption": "💙 O Dia dos Pais está chegando! Selecionamos algumas opções para inspirar você na escolha do presente perfeito. 👞 Mocassins 🩴 Sandálias 🥾 Crocs 🎁 Kits com carteira e cinto E isso é só o começo! Temos muitos outros…",
       "timestamp": "2026-08-05T16:59:12+0000"
@@ -46,18 +54,10 @@
     {
       "id": "17998901108993712",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/767703302_17974046505092770_4223175693308578290_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vX8pT4MB4GIQ7kNvwGKGjjS&_nc_oc=AdqxAtgLB-lBxiCrUSJ_MDWFdxwJJfwpDkvdNMOfE8ZTMTPGXYU7lMOViwbKi4LRLKA&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQJYaoazpkVQgc13tRIE5x8t3nVXdt6hE01PK-U6e1W0fgE67ELrN-OIfd-IJxlrH7CUk2qjRBIK8A&oh=00_AQFL_1DZQ2C241mnuXCUwHnq8TSuV-AEkR02IaSuJ4biog&oe=6A8CAE00",
+      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/767703302_17974046505092770_4223175693308578290_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=vX8pT4MB4GIQ7kNvwF2xosY&_nc_oc=AdrGN9R2tjHa_IWPUMMvl9YWjJ2eqICobSwssUraXuFsk8TOWa5KusfmeAuChvPn9NQ&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=adLGgbRXBQX1I_P-FZvFYw&_nc_tpa=Q5bMBQJHHntndkBHgg8c_CnUbKp0DTmGvG4Iw7pZv9lk6U1yE57zxGEvPr_5FhwbfsQ55dT1QM3aMkrj9Q&oh=00_AQFl-9ZrjlsbOSqkMyXF_bY8kpyJaj75tBPULIZ-gyRcMg&oe=6A8CAE00",
       "permalink": "https://www.instagram.com/p/DbqNbzNkSBu/",
       "caption": "Texturas e dourado: os segredos de um look poderoso. Nova coleção disponível!",
       "timestamp": "2026-08-05T13:07:50+0000"
-    },
-    {
-      "id": "17977192625900968",
-      "mediaType": "VIDEO",
-      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/765970343_17974045239092770_7947970781668504209_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=txAdba2tI4UQ7kNvwFgqyOY&_nc_oc=AdpdLnWzusDBvsJHTGH6pqhaMhcRiZ9k6DC7d4GM8J08dfbPc2uyr3LkuQzLSpcTYNM&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=TQQe5esThRZI_WqXEdn7sA&_nc_tpa=Q5bMBQKpFGBFVg0TnkHw3zI3Kd_W3_5AV3HQ5y2349t0h0dBEsgnyaAIgd44tmdVOh2hSVp8XwVkbpcCUA&oh=00_AQHHPOtC-QQ_PJ6Em2xyIyncUiGZ68JW7kSmccQF_eosLQ&oe=6A8CBDF8",
-      "permalink": "https://www.instagram.com/reel/DbqL28Qx3Ui/",
-      "caption": "Impossível passar despercebida com essa escolha. Detalhes delicados, design impecável e puro charme Disp do 34 ao 39 Cor preto Clique no link da bio e garanta a sua antes que esgote!",
-      "timestamp": "2026-08-05T12:59:21+0000"
     }
   ]
 }
