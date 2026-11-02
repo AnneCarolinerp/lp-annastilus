@@ -1,12 +1,36 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-02T15:58:44.554Z",
+  "generatedAt": "2026-11-02T23:33:07.467Z",
   "username": "annastilus",
   "posts": [
     {
+      "id": "18180569173432044",
+      "mediaType": "CAROUSEL_ALBUM",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/883626817_17987602776092770_6741225616848834994_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=107&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=qWaUdOumDIgQ7kNvwEawDIk&_nc_oc=AdpyObyVu4n904xc9DkLlJvVEDWIieq_SZ_sTlrRt3TOKUY4KnldqUN_rmXLEPmKR9U&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQJ6DbPQ_MrkgSjDpuypmPrt4kTm3b51BJYcVThfEQzWUkm3JNnvitPRHtZujJhLQen-2VG0NFWl8w&oh=00_AQRPgym8YwdG04QSuycjEs3sr7RgVIJZfExMr09GgA3_KA&oe=6AEF0AD2",
+      "permalink": "https://www.instagram.com/p/DfQIiPHCWKK/",
+      "caption": "",
+      "timestamp": "2026-11-02T20:10:20+0000"
+    },
+    {
+      "id": "18003712127809713",
+      "mediaType": "CAROUSEL_ALBUM",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/887334630_17987602143092770_2497763953138556902_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=hIoQZy4wS8QQ7kNvwG2-wvx&_nc_oc=AdpajtB4YWo_HkU99aBV25cTbojEY9ajCuTJLrF-LC3xQd13pmmzcHeWbZAOdnl3fqQ&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQLhfyE5eA9Uo10gFdf8PPN6_2QG0nLaec0WTG_IvWNGFRP6uuaAcV_4QIxyAwMWqhRbVEE9JVWOPQ&oh=00_AQTv0o4KXZUtVSsCZxyRodQipyrQE_Iuy6oP37EQf9o6MQ&oe=6AEEF9F0",
+      "permalink": "https://www.instagram.com/p/DfQIBcQCVtm/",
+      "caption": "",
+      "timestamp": "2026-11-02T20:05:52+0000"
+    },
+    {
+      "id": "17988179868110479",
+      "mediaType": "VIDEO",
+      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.71878-15/870830750_1812491703335873_1967442099495284088_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=105&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=WPk5-XfN_yQQ7kNvwHvDC50&_nc_oc=AdqVbE-uc8yRMyPv9_r0rGzdIEHdzhqBu6Nkr8rhddAzZHWwxee0ZJgsusFlA0ccADs&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQL98Z7NN3u8c6HpoTHfrLhvjqGbL6wmb4Jn9oa9ahyyB0zya0bw1gGD6lPYA-vv-GTDF9VotQT6lg&oh=00_AQQXqQTMFa7IctHMvU9RSnZE-C79Fv_95AUWr6UVivPf8A&oe=6AEF089F",
+      "permalink": "https://www.instagram.com/reel/DfP_G9hpEae/",
+      "caption": "Meninas, chegou SOLENE, a nova coleção de Novembro! 🎄✨ RA já disponível na AnnaStilus ✨️ Uma coleção inspirada no brilho, na elegância e na magia das festas de fim de ano. Preparem-se para se apaixonar! 🥂 Arrastem par…",
+      "timestamp": "2026-11-02T18:49:46+0000"
+    },
+    {
       "id": "18119603642087076",
       "mediaType": "VIDEO",
-      "imageUrl": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/881214526_1139048641799638_8050680120456213602_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YjY6RCOLUQoQ7kNvwFAtt99&_nc_oc=Adr6vJhqLInG7zoTDL-gltJ7y15YuJ4iSVrcMwZsDdQTrJno8bMFM3WJhB68uF_690w&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQJcuv0onhKNTUZwe01UtxATzaCQS4ZczjjqaHVd5iuIsej-n_bWt_KnYrAsdPXroeXd3Y9qq46XYw&oh=00_AQSIIFo8DMipGibpT-a0GRalso-b0X5N0k_dZwIR2YZVqg&oe=6AEEA18D",
+      "imageUrl": "https://scontent-iad3-1.cdninstagram.com/v/t51.71878-15/881214526_1139048641799638_8050680120456213602_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=108&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=YjY6RCOLUQoQ7kNvwElbobF&_nc_oc=AdqFveIAWYN2q4FCEHVjMzDDz1bO-WeB79mMhOao5QvVv3L8fnldhlYzti9i8QmHsns&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQIhcU8-KU-81zGdxOLJ8rA-u-LE_QCkJf2Yx4MBViRM2zfkYeXC8ILOtWhydAsG1iU28UAGhqwFvg&oh=00_AQQOZ5RkYiKajtxJq0kMZSdTyyisVOxoYAgaKbuQdFwvBw&oe=6AEED9CD",
       "permalink": "https://www.instagram.com/reel/DfKCjVePSAQ/",
       "caption": "",
       "timestamp": "2026-10-31T11:22:50+0000"
@@ -14,7 +38,7 @@
     {
       "id": "18125835014313007",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/871126257_17986717200092770_807919264810539712_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=y5W4zd8PBYQQ7kNvwH7Bv_8&_nc_oc=AdrfH2aI9I3q7VurgDh4iWhG0Mj7bGRR7MGYYzRxjoxSqK1_TSxyRPtR3Eo3YtqGNds&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQLAUwnAE9iek8DAkG__q-uWdXt1O2pF5ZeOWs1ktsY6K7mpYXt54Gnza5_FGu_LncAm86rFClw44A&oh=00_AQR-IYx-yYW1XeQS2rYcb5OO5yX2YuzsO6cOGppz8TZYDA&oe=6AEE9F71",
+      "imageUrl": "https://scontent-iad3-1.cdninstagram.com/v/t51.82787-15/871126257_17986717200092770_807919264810539712_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=101&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=y5W4zd8PBYQQ7kNvwHa8ub9&_nc_oc=AdqvRtC6d7EQUfOxxTenbPQ6Zx7J7FSFNebmXTPW45qOz7mqIVMvaX80fFGVwF1Hk6w&_nc_zt=23&_nc_ht=scontent-iad3-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQLljjZMyiDlg4Oyg5Zao-x16CAaEaMtdEknGDRcqnd9NTeBffrJRmCLQPkaH-Qqv6dEATEjkmY_Eg&oh=00_AQSAwH4Jz49H6CRoibdebUKHjaciu5TRrVyTfYfqN6ZFog&oe=6AEED7B1",
       "permalink": "https://www.instagram.com/p/DfDGuKjiSsg/",
       "caption": "Rasteira Flávia 🌸 Tam 34 ao 39 *FÔRMA CERTA* R$ 79,90",
       "timestamp": "2026-10-28T18:44:22+0000"
@@ -22,7 +46,7 @@
     {
       "id": "18105744980357014",
       "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/865822261_17985782238092770_8736275229873768392_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HBTIrMJSFF8Q7kNvwHxONRN&_nc_oc=AdoXVu6KLHFquI1WblMKX0jHt8_Ies99p99ijpgcxHo7IldfXUcaCuKKlvzg1E2Wqzc&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQLTdi4teLxFLsv6HxuHEZswh4Nq18i8Vea_UH1bND9SP7SZdPTyDPUf-vc8V3ucpgUdloFI0nuHCQ&oh=00_AQRLtKOmpeScDPwc9rMcbvwdoP7C6nGbgY7fw07qf5qmlQ&oe=6AEE9B06",
+      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/865822261_17985782238092770_8736275229873768392_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=HBTIrMJSFF8Q7kNvwFgv6eI&_nc_oc=Adrnp7QY-p595OVswgJhc6p3G5qoY2qPaA3xDobLEUix_9Ai3CzUxjYbeWmtDxU-YQY&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQKzZwcRIrJB-WgYiLJrOneLUkLQmccPOnD8osbLJ5SRlqgugUsjMdztKMXfhWIgvxw4ICMRgYOuNA&oh=00_AQS2beq3qMFJJlf9PiJCSsXTLDuQJe6PsKGpz_xOS1G5Ng&oe=6AEF0B86",
       "permalink": "https://www.instagram.com/p/De2Tn4cCT-q/",
       "caption": "*Salto Bico Dourado*✨ Salto 5 cm Fôrma certa 👣 34 ao 39 Valor: 139,90💰 149,90 💳",
       "timestamp": "2026-10-23T19:26:59+0000"
@@ -30,34 +54,10 @@
     {
       "id": "18385001506233838",
       "mediaType": "VIDEO",
-      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/861637502_1641842157292478_4351606036681219124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=PhS8r-ZfigkQ7kNvwFbFtAd&_nc_oc=AdoljDWlv-5igG7uxCRBfTSkxkBfyg2Xt1wDoselCuZ0wwqv4rdM1UnlqlwX_ck-Xzw&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQJy6pc-3a30UFSRyWhB6QjKE6UWJrayfQ4GFsN53KTO1aYY20lg0GlJNlks6YEK_Oqk914oWd-8QA&oh=00_AQRtW5bXm21_lbDQf7-eiWmfdd-Z78I1yApG2v1CbBGgyQ&oe=6AEE92FC",
+      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/861637502_1641842157292478_4351606036681219124_n.jpg?stp=dst-jpg_e35_tt6&_nc_cat=111&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0xJUFMuYmVzdF9pbWFnZV91cmxnZW4uQzMifQ%3D%3D&_nc_ohc=PhS8r-ZfigkQ7kNvwEjkfkd&_nc_oc=AdoMpb-HVE9nu6eNCRGs5yGuRUqjFgkn-pser7FdkU4E5Ozw2oOCJROf3XCQDi-GXC0&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=kvOQeIxdsoEgB1qrA5xt-g&_nc_tpa=Q5bMBQKNmkXWJgfWvCc9tas8W-q8KYk4y78zbFP1juKNk1jCV7gUQPgA3O0lwV4VzJKafjnU-kIfwnXfXQ&oh=00_AQQfHclzx6njCvy_Znw8eCtnWJoZCmMFr0mXKdXJH2OQGQ&oe=6AEF037C",
       "permalink": "https://www.instagram.com/reel/De2QGGpJXju/",
       "caption": "",
       "timestamp": "2026-10-23T18:56:38+0000"
-    },
-    {
-      "id": "18238478158317543",
-      "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/841956559_17983558431092770_4223275766843155447_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=109&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=GfZ0LQj740YQ7kNvwGuQt7B&_nc_oc=AdrHdrPVv0VZ17EfsF-deP7nDrsK8fg-OeSsqd7-3ixkui_ZDvVGEyXy-VoRxUFUgBs&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQLw9haSACLY-SWAis3RXD6zJvhMUAemt0CHsIWmiBkHAYsR0mBXu7FsZ6_LnpLVtPU-AjhHvf-PWg&oh=00_AQSrJfhTg2a-X4SWnebp4V82g4fzPRoynKKDCZ3ZnoYbfg&oe=6AEE905B",
-      "permalink": "https://www.instagram.com/p/DeRUMN2kRqH/",
-      "caption": "",
-      "timestamp": "2026-10-09T10:40:02+0000"
-    },
-    {
-      "id": "18112959560322346",
-      "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad3-2.cdninstagram.com/v/t51.82787-15/841296520_17983459689092770_4935940070085979921_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=103&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=3YK9MS7vKooQ7kNvwE2K9XD&_nc_oc=AdpyALboa8Webq8w7l1UFKLf9nK1aTIqxsWdDWYCziJXss9UEUYWOA850uHI99tAHiM&_nc_zt=23&_nc_ht=scontent-iad3-2.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQKHHZCfrIOpcqKstGKCB8mMZm5RH0-_-ntxrx8iO1LBaGG810RPJ2sJ1rWAac_V01Ju14YQGm-URw&oh=00_AQQBzsBlPqqJUH379IJOGKfkkFX2gr1UbcHCrpCWHzfMwQ&oe=6AEE9D4C",
-      "permalink": "https://www.instagram.com/p/DePZmusiZyM/",
-      "caption": "",
-      "timestamp": "2026-10-08T16:48:52+0000"
-    },
-    {
-      "id": "18040281392828268",
-      "mediaType": "CAROUSEL_ALBUM",
-      "imageUrl": "https://scontent-iad6-1.cdninstagram.com/v/t51.82787-15/842143197_17983415970092770_4950133265413895319_n.heic?stp=dst-jpg_e35_tt6&_nc_cat=106&ccb=7-5&_nc_sid=18de74&efg=eyJlZmdfdGFnIjoiQ0FST1VTRUxfSVRFTS5iZXN0X2ltYWdlX3VybGdlbi5DMyJ9&_nc_ohc=97SLizk6kXEQ7kNvwFe4aCv&_nc_oc=Ado80ddlnvFOgO_0r9op7ZMeNbDiSXxFr_x22X8VDpsa0P3zNAwY134g77Gv24OXzgY&_nc_zt=23&_nc_ht=scontent-iad6-1.cdninstagram.com&edm=ANo9K5cEAAAA&_nc_gid=EOj2go_gg0b2_fUTVbY7cQ&_nc_tpa=Q5bMBQK5LL1EK_zPMSNQwJ4Oy1GwjogjE2POfM8FFizn2kLephykGQf1S_QVq4yoAk_eOy-zFxVjhOpqXg&oh=00_AQTrbBHkzU7euFhp-UJ5753PMuxtvJwxfYdbi70DfPxh0Q&oe=6AEE8018",
-      "permalink": "https://www.instagram.com/p/DeO2lLNEffL/",
-      "caption": "*Salto Bloco 3 cm* Verniz *Fôrma Certa* N• 34 ao 39 Valor: 135,90",
-      "timestamp": "2026-10-08T11:42:49+0000"
     }
   ]
 }
